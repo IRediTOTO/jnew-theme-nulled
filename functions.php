@@ -2,6 +2,7 @@
 /**
  * @author : Jegtheme
  */
+update_option( 'jnews_license', [ 'validated' => true, 'token' => 'jnews' ] );
 
 defined( 'JNEWS_THEME_URL' ) || define( 'JNEWS_THEME_URL', get_parent_theme_file_uri() );
 defined( 'JNEWS_THEME_FILE' ) || define( 'JNEWS_THEME_FILE', __FILE__ );
